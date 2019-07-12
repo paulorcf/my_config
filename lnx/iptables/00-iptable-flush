@@ -1,0 +1,3 @@
+#!/bin/sh
+/sbin/iptables -F
+/sbin/ip6tables -F
