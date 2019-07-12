@@ -34,7 +34,8 @@ sudo curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key -
 sudo apt-get update && sudo apt-get install -y google-cloud-sdk google-cloud-sdk-app-engine-java google-cloud-sdk-app-engine-python google-cloud-sdk-app-engine-python-extras google-cloud-sdk-pubsub-emulator 
 
 # AWS-CLI
-pip3 install awscli --upgrade --user
+#pip3 install awscli --upgrade --user
+sudo apt install -y awscli 
 
 # Others
 # sudo update-alternatives --config java
