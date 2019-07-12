@@ -26,6 +26,7 @@ apt-cache policy docker-ce
 sudo apt install -y docker-ce
 sudo systemctl status docker
 sudo usermod -aG docker ${USER}
+sudo systemctl restart docker
 
 # Gcloud
 echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
